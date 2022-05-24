@@ -22,6 +22,8 @@ class MainWin(QMainWindow, Ui_MainWindow):
         self.label_5.setText("")
         # 设置窗体大小
         self.resize(300, 770)
+        # 窗口置顶
+        self.setWindowFlags(Qt.WindowStaysOnTopHint)
         # 事件绑定
         self.bind_event_handler()
         # 将配置数据解析到界面上
