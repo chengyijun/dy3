@@ -1,0 +1,22 @@
+# 找色区域左上点坐标
+left_top_point: 600,300
+# 找色区域右下点坐标
+right_down_point: 1300,700
+# 目标点色值
+target: 44,176,70
+# 找目标点的允许的色值容差
+color_allowance: 20
+# 给目标点上色的色值
+mark: 0,255,0
+# 检测时间间隔 单位ms
+frequency: 800
+# 判定上钩 白色像素占比
+threshold: 0.0001
+# 判定上钩 检测半径
+radius: 50
+# 二值化阈值
+threshold_point: 210
+# 甩杆后是否移开鼠标
+is_course_move: false
+# 甩杆后鼠标移动到的位置
+course_position: 200,200
